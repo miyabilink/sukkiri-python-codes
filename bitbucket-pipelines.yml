@@ -5,7 +5,7 @@ pipelines:
       main:
         - step:
            script:
-             - apt install python3-notebook jupyter jupyter-core python-ipykernel
+             - apt-get install python3-notebook jupyter jupyter-core python-ipykernel
              - which jupyter
              - jupyter nbconvert --to script ipynb/*.ipynb
              - ls
