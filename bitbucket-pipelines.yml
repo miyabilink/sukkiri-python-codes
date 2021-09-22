@@ -14,8 +14,9 @@ pipelines:
              - pip install jupyter
              - jupyter nbconvert --to script ipynb/*.ipynb
              - mkdir py && mv ipynb/*.py py && ls py
-             - git add py && git commit -m 'ipynb to py'
+             - git add py && git commit -m '最新コードに関して、ipynb形式からpy形式への変換'
              - git remote add sync git@github.com:miyabilink/sukkiri-spython-codes.git
+             - git remote set-head origin main
              - git checkout main
              - git pull
              - git merge origin/main
