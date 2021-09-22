@@ -5,7 +5,8 @@ pipelines:
       main:
         - step:
            script:
-             - apt install jupyter
+             - apt-get install -y jupyter
+             - which jupyter
              - jupyter nbconvert --to script ipynb/*.ipynb
              - ls
              - git remote add sync git@github.com:miyabilink/sukkiri-spython-codes.git
