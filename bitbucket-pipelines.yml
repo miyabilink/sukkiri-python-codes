@@ -12,9 +12,11 @@ pipelines:
              - apt-get install -y ipython ipython-notebook 
              - apt-get remove -y python-zmq ipython
              - pip install jupyter
-             - which jupyter
              - jupyter nbconvert --to script ipynb/*.ipynb
-             - ls
+             - ls ipynb
+             - mkdir py && mv ipynb/*.py py
+             - git add py
+             - git commit -m 'ipynb to py'
              - git remote add sync git@github.com:miyabilink/sukkiri-spython-codes.git
              - git checkout main
              - git pull
