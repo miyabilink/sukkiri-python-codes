@@ -5,6 +5,7 @@ pipelines:
       main:
         - step:
            script:
+             - add-apt-repository universe
              - apt-get update -y
              - apt-get install python3-notebook jupyter jupyter-core python-ipykernel
              - which jupyter
