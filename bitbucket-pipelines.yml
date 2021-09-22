@@ -6,7 +6,7 @@ pipelines:
         - step:
            script:
              - git remote add sync git@github.com:miyabilink/sukkiri-spython-codes.git
-             - git remote set-head sync main
+             - git remote set-head origin main
              - git checkout main
              - git pull
              - add-apt-repository universe && apt-get update -y
