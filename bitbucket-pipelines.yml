@@ -7,7 +7,9 @@ pipelines:
            script:
              - python --version
              - add-apt-repository universe && apt-get update -y
-             - apt-get install -y python2-pip ipython ipython-notebook 
+             - curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
+             - python2 get-pip.py
+             - apt-get install -y ipython ipython-notebook 
              - pip install jupyter
              - which jupyter
              - jupyter nbconvert --to script ipynb/*.ipynb
