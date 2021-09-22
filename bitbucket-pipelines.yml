@@ -7,7 +7,7 @@ pipelines:
            script:
              - python --version
              - add-apt-repository universe && apt-get update -y
-             - apt-get install -y ipython ipython-notebook 
+             - apt-get install -y pip ipython ipython-notebook 
              - pip install jupyter
              - which jupyter
              - jupyter nbconvert --to script ipynb/*.ipynb
