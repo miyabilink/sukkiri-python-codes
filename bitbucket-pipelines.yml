@@ -10,6 +10,7 @@ pipelines:
              - curl https://bootstrap.pypa.io/pip/2.7/get-pip.py  --output get-pip.py
              - python2 get-pip.py
              - apt-get install -y ipython ipython-notebook 
+             - apt-get remove -y python-zmq
              - pip install jupyter
              - which jupyter
              - jupyter nbconvert --to script ipynb/*.ipynb
