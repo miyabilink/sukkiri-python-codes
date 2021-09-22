@@ -12,7 +12,35 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: create a Zip file
+      - name: create a ipynbZip file
+        run: ls &&
+          zip release.zip ipynb &&
+          unzip -t release.zip
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./release.zip
+          asset_name: sukkiri-python-ipynbcodes.zip
+          asset_content_type: application/zip
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: create a pyZip file
         run: ls &&
           zip release.zip py &&
           unzip -t release.zip
@@ -34,5 +62,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./release.zip
-          asset_name: sukkiri-python-codes.zip
+          asset_name: sukkiri-python-pycodes.zip
           asset_content_type: application/zip
