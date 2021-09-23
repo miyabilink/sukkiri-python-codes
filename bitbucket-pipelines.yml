@@ -6,7 +6,6 @@ pipelines:
         - step:
            script:
              - git remote add sync git@github.com:miyabilink/sukkiri-spython-codes.git
-             - git checkout main
              - git pull
              - add-apt-repository universe && apt-get update -y
              - curl https://bootstrap.pypa.io/pip/2.7/get-pip.py  --output get-pip.py
