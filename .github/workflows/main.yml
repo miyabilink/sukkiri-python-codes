@@ -34,6 +34,6 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./release.zip
-          asset_name: sukkiri-python-py-codes.zip
+          asset_name: sukkiri-python-codes.zip
           asset_content_type: application/zip
 
