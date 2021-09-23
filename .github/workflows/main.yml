@@ -14,7 +14,7 @@ jobs:
 
       - name: create a zip file
         run: ls &&
-          zip release.zip py/* ipynb/* LICENSE.txt README.md &&
+          zip -r release.zip py/* ipynb/* LICENSE.txt README.md &&
           unzip -t release.zip
       - name: Create release
         id: create_release
