@@ -5,7 +5,7 @@ pipelines:
       v*:
         - step:
            script:
-             - git remote add sync git@github.com:miyabilink/sukkiri-spython-codes.git
+             - git remote add sync git@github.com:miyabilink/sukkiri-python-codes.git
              - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
              - git fetch origin
              - git checkout main
@@ -14,7 +14,7 @@ pipelines:
              - add-apt-repository universe && apt-get update -y
              - curl https://bootstrap.pypa.io/pip/2.7/get-pip.py  --output get-pip.py
              - python2 get-pip.py
-             - apt-get install -y ipython ipython-notebook 
+             - apt-get install -y ipython ipython-notebook
              - apt-get remove -y python-zmq ipython
              - pip install jupyter
              - jupyter nbconvert --to script ipynb/*.ipynb
