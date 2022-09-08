@@ -1,0 +1,172 @@
+{
+  "py": {
+    "label_header": "コード0",
+    "label": "第0章 ようこそPythonの世界へ",
+    "sourceFiles": [
+      "chap00.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "コード1",
+    "label": "第1章 変数とデータ型",
+    "sourceFiles": [
+      "chap01.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "練習1",
+    "label": "第1章 練習問題",
+    "sourceFiles": [
+      "ex01.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "コード2",
+    "label": "第2章 コレクション",
+    "sourceFiles": [
+      "chap02.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "練習2",
+    "label": "第2章 練習問題",
+    "sourceFiles": [
+      "ex02.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "コード3",
+    "label": "第3章 条件分岐",
+    "sourceFiles": [
+      "chap03.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "練習3",
+    "label": "第3章 練習問題",
+    "sourceFiles": [
+      "ex03.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "コード4",
+    "label": "第4章 繰り返し",
+    "sourceFiles": [
+      "chap04.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "練習4",
+    "label": "第4章 練習問題",
+    "sourceFiles": [
+      "ex04.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "コード5",
+    "label": "第5章 関数",
+    "sourceFiles": [
+      "chap05.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "練習5",
+    "label": "第5章 練習問題",
+    "sourceFiles": [
+      "ex05.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "コード6",
+    "label": "第6章 オブジェクト",
+    "sourceFiles": [
+      "chap06.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "練習6",
+    "label": "第6章 練習問題",
+    "sourceFiles": [
+      "ex06.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "コード7",
+    "label": "第7章 モジュール",
+    "sourceFiles": [
+      "chap07.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "練習7",
+    "label": "第7章 練習問題",
+    "sourceFiles": [
+      "ex07.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "コード8",
+    "label": "第8章 まだまだ広がるPythonの世界",
+    "sourceFiles": [
+      "chap08.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": false,
+    "loadMessage": null
+  },
+  {
+    "label_header": "コードB",
+    "label": "付録B エラー解決・虎の巻",
+    "sourceFiles": [
+      "appB.py"
+    ],
+    "isCompileError": false,
+    "isRuntimeError": true,
+    "loadMessage": null
+  }
+}
