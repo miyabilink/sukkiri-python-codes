@@ -1,6 +1,6 @@
-# スッキリわかるPython入門 第1版　書籍掲載コード
+# スッキリわかるPython入門 初版　書籍掲載コード
 
-Python入門書籍『[スッキリわかるPython入門 第1版](https://sukkiri.jp/books/sukkiri_python)』（インプレス, 2019）の誌面掲載プログラムリスト集です。[LICENSE.txt](https://github.com/miyabilink/sukkiri-python-codes/raw/main/LICENSE.txt) の条件に基づきご利用ください。  
+Python入門書籍『[スッキリわかるPython入門 初版](https://sukkiri.jp/books/sukkiri_python)』（インプレス, 2019）の誌面掲載プログラムリスト集です。[LICENSE.txt](https://github.com/miyabilink/sukkiri-python-codes/raw/main/LICENSE.txt) の条件に基づきご利用ください。  
 
 ## 配布用ZIPファイル
 研修や講義に便利な再配布用ZIPファイルは　→ 　🎁 [sukkiri-python-codes.zip](https://github.com/miyabilink/sukkiri-python-codes/releases/latest/download/sukkiri-python-codes.zip)
