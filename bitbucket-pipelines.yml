@@ -11,6 +11,8 @@ pipelines:
              - git checkout main
              - git pull
              - git merge origin/main
+             - git rm -f bitbucket-pipelines.yml
+             - git commit -m “不要なファイルの削除”
              - add-apt-repository universe && apt-get update -y
              - curl https://bootstrap.pypa.io/pip/2.7/get-pip.py  --output get-pip.py
              - python2 get-pip.py
