@@ -1,191 +1,928 @@
-{
-  "id": "py",
-  "children": [{
-      "id": "code00",
-      "label_header": "コード0",
-      "label": "第0章 ようこそPythonの世界へ",
-      "sourceFiles": [
-        "chap00.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "code01",
-      "label_header": "コード1",
-      "label": "第1章 変数とデータ型",
-      "sourceFiles": [
-        "chap01.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "quiz01",
-      "label_header": "練習1",
-      "label": "第1章 練習問題",
-      "sourceFiles": [
-        "ex01.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "code02",
-      "label_header": "コード2",
-      "label": "第2章 コレクション",
-      "sourceFiles": [
-        "chap02.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "quiz02",
-      "label_header": "練習2",
-      "label": "第2章 練習問題",
-      "sourceFiles": [
-        "ex02.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "code03",
-      "label_header": "コード3",
-      "label": "第3章 条件分岐",
-      "sourceFiles": [
-        "chap03.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "quiz03",
-      "label_header": "練習3",
-      "label": "第3章 練習問題",
-      "sourceFiles": [
-        "ex03.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "code04",
-      "label_header": "コード4",
-      "label": "第4章 繰り返し",
-      "sourceFiles": [
-        "chap04.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "quiz04",
-      "label_header": "練習4",
-      "label": "第4章 練習問題",
-      "sourceFiles": [
-        "ex04.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "code05",
-      "label_header": "コード5",
-      "label": "第5章 関数",
-      "sourceFiles": [
-        "chap05.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "quiz05",
-      "label_header": "練習5",
-      "label": "第5章 練習問題",
-      "sourceFiles": [
-        "ex05.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "code06",
-      "label_header": "コード6",
-      "label": "第6章 オブジェクト",
-      "sourceFiles": [
-        "chap06.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "quiz06",
-      "label_header": "練習6",
-      "label": "第6章 練習問題",
-      "sourceFiles": [
-        "ex06.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "code07",
-      "label_header": "コード7",
-      "label": "第7章 モジュール",
-      "sourceFiles": [
-        "chap07.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "quiz07",
-      "label_header": "練習7",
-      "label": "第7章 練習問題",
-      "sourceFiles": [
-        "ex07.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "code08",
-      "label_header": "コード8",
-      "label": "第8章 まだまだ広がるPythonの世界",
-      "sourceFiles": [
-        "chap08.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
-    },
-    {
-      "id": "appendixB",
-      "label_header": "コードB",
-      "label": "付録B エラー解決・虎の巻",
-      "sourceFiles": [
-        "appB.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": true,
-      "loadMessage": null
-    }
-  ]
-}
+[
+  {
+    "id": "chap00",
+    "label": "第0章 ようこそPythonの世界へ",
+    "children":
+    [
+      {
+        "id": "code00-01",
+        "label_header": "コード0-1",
+        "label": "はじめてのPythonプログラム",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code00-02",
+        "label_header": "コード0-2",
+        "label": "浅木さんが書き換えたプログラム",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code00-03",
+        "label_header": "コード0-3",
+        "label": "松田くんが書き換えたプログラム（エラー）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code00-04",
+        "label_header": "コード0-4",
+        "label": "複数の文章を表示する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code00-05",
+        "label_header": "コード0-5",
+        "label": "コメントを入れたプログラム",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap01",
+    "label": "第1章 変数とデータ型",
+    "children":
+    [
+      {
+        "id": "code01-01",
+        "label_header": "コード1-1",
+        "label": "print関数に数値を書く",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-02",
+        "label_header": "コード1-2",
+        "label": "加算と減算",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-03",
+        "label_header": "コード1-3",
+        "label": "文字列の演算",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-04",
+        "label_header": "コード1-4",
+        "label": "文字列の演算の応用",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-05",
+        "label_header": "コード1-5",
+        "label": "文字列の途中で改行する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-06",
+        "label_header": "コード1-6",
+        "label": "同じ式が何度も登場してしまう",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-07",
+        "label_header": "コード1-7",
+        "label": "変数の利用",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-08",
+        "label_header": "コード1-8",
+        "label": "変数を利用してコード1-6を改善",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-09",
+        "label_header": "コード1-9",
+        "label": "変数の上書き",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-10",
+        "label_header": "コード1-10",
+        "label": "複数の変数をまとめて定義",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-11",
+        "label_header": "コード1-11",
+        "label": "浅木さんの年齢を予測するプログラム",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-12",
+        "label_header": "コード1-12",
+        "label": "浅木さんの年齢を予測するプログラム（修正版）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-13",
+        "label_header": "コード1-13",
+        "label": "変数の現在の値に加減乗除する場合",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-14",
+        "label_header": "コード1-14",
+        "label": "キーボードから値を入力する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-15",
+        "label_header": "コード1-15",
+        "label": "割り勘計算プログラム",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-16",
+        "label_header": "コード1-16",
+        "label": "変数には異なるデータ型の値を代入できる",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-17",
+        "label_header": "コード1-17",
+        "label": "格納されている値のデータ型を調べる",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-18",
+        "label_header": "コード1-18",
+        "label": "割り勘計算プログラムの問題点",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-19",
+        "label_header": "コード1-19",
+        "label": "データ型の変換",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-20",
+        "label_header": "コード1-20",
+        "label": "割り勘計算プログラムの修正（未完成）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-21",
+        "label_header": "コード1-21",
+        "label": "文字列に数値を埋め込む",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-22",
+        "label_header": "コード1-22",
+        "label": "format関数で文字列に数値を埋め込む",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-23",
+        "label_header": "コード1-23",
+        "label": "割り勘計算プログラム（完成版）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans01-03",
+        "label_header": "",
+        "label": "練習1-3の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap02",
+    "label": "第2章 コレクション",
+    "children":
+    [
+      {
+        "id": "code02-01",
+        "label_header": "コード2-1",
+        "label": "点数管理プログラム",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-02",
+        "label_header": "コード2-2",
+        "label": "リストを作成して参照",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-03",
+        "label_header": "コード2-3",
+        "label": "リストの要素を参照",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-04",
+        "label_header": "コード2-4",
+        "label": "リストの要素を参照（エラー）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-05",
+        "label_header": "コード2-5",
+        "label": "試験の合計と平均を求める",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-06",
+        "label_header": "コード2-6",
+        "label": "sum関数を用いて合計を求める",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-07",
+        "label_header": "コード2-7",
+        "label": "リストの合計値と平均値を求める",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-08",
+        "label_header": "コード2-8",
+        "label": "リストに要素を追加",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-09",
+        "label_header": "コード2-9",
+        "label": "リストから要素を削除",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-10",
+        "label_header": "コード2-10",
+        "label": "リストの要素を変更",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-11",
+        "label_header": "コード2-11",
+        "label": "スライスによる範囲指定",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-12",
+        "label_header": "コード2-12",
+        "label": "負の数による指定",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-13",
+        "label_header": "コード2-13",
+        "label": "ディクショナリの作成",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-14",
+        "label_header": "コード2-14",
+        "label": "ディクショナリの要素を参照",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-15",
+        "label_header": "コード2-15",
+        "label": "ディクショナリの要素の追加と変更",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-16",
+        "label_header": "コード2-16",
+        "label": "ディクショナリの要素を削除",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-17",
+        "label_header": "コード2-17",
+        "label": "タプルの利用",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-18",
+        "label_header": "コード2-18",
+        "label": "タプルの要素を変更（エラー）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-19",
+        "label_header": "コード2-19",
+        "label": "要素数が1つのリストとディクショナリ",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-20",
+        "label_header": "コード2-20",
+        "label": "要素数1のタプル（のつもり）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-21",
+        "label_header": "コード2-21",
+        "label": "要素数1のタプル",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-22",
+        "label_header": "コード2-22",
+        "label": "セットの利用",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-23",
+        "label_header": "コード2-23",
+        "label": "コレクションの相互変換",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-24",
+        "label_header": "コード2-24",
+        "label": "ディクショナリの中にディクショナリをネスト",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-25",
+        "label_header": "コード2-25",
+        "label": "ディクショナリの中にセットをネスト",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-26",
+        "label_header": "コード2-26",
+        "label": "2次元リストの例",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-27",
+        "label_header": "コード2-27",
+        "label": "セットの&演算",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-28",
+        "label_header": "コード2-28",
+        "label": "4つの集合演算",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans02-02",
+        "label_header": "",
+        "label": "練習2-2の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans02-03",
+        "label_header": "",
+        "label": "練習2-3の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap03",
+    "label": "第3章 条件分岐",
+    "children":
+    [
+      {
+        "id": "code03-01",
+        "label_header": "コード3-1",
+        "label": "いつも同じことを言うチャットボット",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-02",
+        "label_header": "コード3-2",
+        "label": "答えが分岐するチャットボット",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-03",
+        "label_header": "コード3-3",
+        "label": "常に追試を受けることになる判定プログラム",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-04",
+        "label_header": "コード3-4",
+        "label": "どんなカレーでも絶賛するチャットボット",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-05",
+        "label_header": "コード3-5",
+        "label": "100点があるかどうかを調べる",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-06",
+        "label_header": "コード3-6",
+        "label": "ディクショナリのキーをチェックする",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-07",
+        "label_header": "コード3-7",
+        "label": "条件式の評価結果を確認する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-08",
+        "label_header": "コード3-8",
+        "label": "elseブロックのない分岐",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-09",
+        "label_header": "コード3-9",
+        "label": "多分岐するif文",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-10",
+        "label_header": "コード3-10",
+        "label": "晩ご飯をレコメンドするチャットボット",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz03-04",
+        "label_header": "",
+        "label": "練習3-4",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans03-03",
+        "label_header": "",
+        "label": "練習3-3の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap04",
+    "label": "第2章 コレクション",
+    "children":
+    [
+      {
+        "id": "code04",
+        "label_header": "コード4",
+        "label": "第4章 繰り返し",
+        "sourceFiles": [
+          "chap04.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz04",
+        "label_header": "練習4",
+        "label": "第4章 練習問題",
+        "sourceFiles": [
+          "ex04.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05",
+        "label_header": "コード5",
+        "label": "第5章 関数",
+        "sourceFiles": [
+          "chap05.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz05",
+        "label_header": "練習5",
+        "label": "第5章 練習問題",
+        "sourceFiles": [
+          "ex05.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06",
+        "label_header": "コード6",
+        "label": "第6章 オブジェクト",
+        "sourceFiles": [
+          "chap06.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz06",
+        "label_header": "練習6",
+        "label": "第6章 練習問題",
+        "sourceFiles": [
+          "ex06.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07",
+        "label_header": "コード7",
+        "label": "第7章 モジュール",
+        "sourceFiles": [
+          "chap07.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz07",
+        "label_header": "練習7",
+        "label": "第7章 練習問題",
+        "sourceFiles": [
+          "ex07.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code08",
+        "label_header": "コード8",
+        "label": "第8章 まだまだ広がるPythonの世界",
+        "sourceFiles": [
+          "chap08.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "appendixB",
+        "label_header": "コードB",
+        "label": "付録B エラー解決・虎の巻",
+        "sourceFiles": [
+          "appB.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      }
+    ]
+  }
+]
