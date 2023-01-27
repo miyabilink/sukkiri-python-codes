@@ -1461,27 +1461,159 @@
     ]
   },
   {
-    "id": "chap04",
-    "label": "第4章 繰り返し",
+    "id": "chap06",
+    "label": "第6章 オブジェクト",
     "children":
     [
       {
-        "id": "code06",
-        "label_header": "コード6",
-        "label": "第6章 オブジェクト",
+        "id": "code06-01",
+        "label_header": "コード6-1",
+        "label": "append関数やformat関数の呼び出し",
         "sourceFiles": [
-          "chap06.py"
+          "main.py"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "quiz06",
-        "label_header": "練習6",
-        "label": "第6章 練習問題",
+        "id": "code06-02",
+        "label_header": "コード6-2",
+        "label": "整数もリストもデータと関数をセットで持つ",
         "sourceFiles": [
-          "ex06.py"
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-03",
+        "label_header": "コード6-3",
+        "label": "strオブジェクトのメソッドを活用した血液型占い",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-04",
+        "label_header": "コード6-4",
+        "label": "リテラルやクラス名関数を用いたオブジェクトの生成",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-05",
+        "label_header": "コード6-5",
+        "label": "RPGの勇者を表すクラスの定義と利用",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-06",
+        "label_header": "コード6-6",
+        "label": "オブジェクトのidentityの確認",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-07",
+        "label_header": "コード6-7",
+        "label": "リストオブジェクトのコピーによる不可解な動作",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-08",
+        "label_header": "コード6-8",
+        "label": "関数に渡すと変数の内容を書き換えられてしまう",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-09",
+        "label_header": "コード6-9",
+        "label": "防御的コピーを用いて悪影響を防ぐ",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-10",
+        "label_header": "コード6-10",
+        "label": "文字列を引き渡しても悪影響が起きない",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-11",
+        "label_header": "コード6-11",
+        "label": "リストと文字列による書き換え時のidentity値の変化",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz06-01",
+        "label_header": "",
+        "label": "練習6-1",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz06-02",
+        "label_header": "",
+        "label": "練習6-2",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz06-03",
+        "label_header": "",
+        "label": "練習6-3",
+        "sourceFiles": [
+          "main.py"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
