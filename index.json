@@ -810,41 +810,224 @@
   },
   {
     "id": "chap04",
-    "label": "第2章 コレクション",
+    "label": "第4章 繰り返し",
     "children":
     [
       {
-        "id": "code04",
-        "label_header": "コード4",
-        "label": "第4章 繰り返し",
+        "id": "code04-01",
+        "label_header": "コード4-1",
+        "label": "ひつじを数えて眠る",
         "sourceFiles": [
-          "chap04.py"
+          "main.py"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "quiz04",
-        "label_header": "練習4",
-        "label": "第4章 練習問題",
+        "id": "code04-02",
+        "label_header": "コード4-2",
+        "label": "ひつじを数えるのを3回繰り返す",
         "sourceFiles": [
-          "ex04.py"
+          "main.py"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "code05",
-        "label_header": "コード5",
-        "label": "第5章 関数",
+        "id": "code04-03",
+        "label_header": "コード4-3",
+        "label": "無限ループ",
         "sourceFiles": [
-          "chap05.py"
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードを実行すると無限ループが発生します。実行結果画面の右上に表示される中断ボタンをクリックするか、しばらく待つと自動的に停止します。"
+      },
+      {
+        "id": "code04-04",
+        "label_header": "コード4-4",
+        "label": "ひつじを数えるのを眠るまで繰り返す",
+        "sourceFiles": [
+          "main.py"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
+      },
+      {
+        "id": "code04-05",
+        "label_header": "コード4-5",
+        "label": "繰り返しを使って得点リストを作成する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code04-06",
+        "label_header": "コード4-6",
+        "label": "リストの全要素を繰り返し参照する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code04-07",
+        "label_header": "コード4-7",
+        "label": "for文でリストの全要素を参照する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code04-08",
+        "label_header": "コード4-8",
+        "label": "for文で決まった回数を繰り返す",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code04-09",
+        "label_header": "コード4-9",
+        "label": "データのまとまりからサンプルを抽出する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code04-10",
+        "label_header": "コード4-10",
+        "label": "目標数に達したら繰り返しを終了する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code04-11",
+        "label_header": "コード4-11",
+        "label": "不要な回のループをスキップする",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz04-01",
+        "label_header": "",
+        "label": "練習4-1",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz04-03",
+        "label_header": "",
+        "label": "練習4-3",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans04-02",
+        "label_header": "",
+        "label": "練習4-2の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans04-03",
+        "label_header": "",
+        "label": "練習4-3の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans04-04",
+        "label_header": "",
+        "label": "練習4-4の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans04-05",
+        "label_header": "",
+        "label": "練習4-5の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans04-06",
+        "label_header": "",
+        "label": "練習4-6の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap05",
+    "label": "第5章 関数",
+    "children":
+    [
+      {
+      "id": "code05",
+      "label_header": "コード5",
+      "label": "第5章 関数",
+      "sourceFiles": [
+        "chap05.py"
+      ],
+      "isCompileError": false,
+      "isRuntimeError": false,
+      "loadMessage": null
       },
       {
         "id": "quiz05",
@@ -856,7 +1039,14 @@
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
-      },
+      }
+    ]
+  },
+  {
+    "id": "chap04",
+    "label": "第4章 繰り返し",
+    "children":
+    [
       {
         "id": "code06",
         "label_header": "コード6",
@@ -878,7 +1068,14 @@
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
-      },
+      }
+    ]
+  },
+  {
+    "id": "chap04",
+    "label": "第4章 繰り返し",
+    "children":
+    [
       {
         "id": "code07",
         "label_header": "コード7",
@@ -900,7 +1097,14 @@
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
-      },
+      }
+    ]
+  },
+  {
+    "id": "chap04",
+    "label": "第4章 繰り返し",
+    "children":
+    [
       {
         "id": "code08",
         "label_header": "コード8",
