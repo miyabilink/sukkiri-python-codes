@@ -1019,22 +1019,440 @@
     "children":
     [
       {
-      "id": "code05",
-      "label_header": "コード5",
-      "label": "第5章 関数",
-      "sourceFiles": [
-        "chap05.py"
-      ],
-      "isCompileError": false,
-      "isRuntimeError": false,
-      "loadMessage": null
+        "id": "code05-01",
+        "label_header": "コード5-1",
+        "label": "見通しの悪いプログラム",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
       },
       {
-        "id": "quiz05",
-        "label_header": "練習5",
-        "label": "第5章 練習問題",
+        "id": "code05-02",
+        "label_header": "コード5-2",
+        "label": "見通しがよくなったプログラム",
         "sourceFiles": [
-          "ex05.py"
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-03",
+        "label_header": "コード5-3",
+        "label": "hello関数の定義",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-04",
+        "label_header": "コード5-4",
+        "label": "hello関数の呼び出し",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-05",
+        "label_header": "コード5-5",
+        "label": "名前を表示するつもりのinput_scores関数",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-06",
+        "label_header": "コード5-6",
+        "label": "input_scores関数内の変数nameに代入するつもり",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-07",
+        "label_header": "コード5-7",
+        "label": "引数を受け取るhello関数",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-08",
+        "label_header": "コード5-8",
+        "label": "引数を渡しながらhello関数を呼び出す",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-09",
+        "label_header": "コード5-9",
+        "label": "複数の引数を受け取るprofile関数",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-10",
+        "label_header": "コード5-10",
+        "label": "複数の引数を渡しながらprofile関数を呼び出す",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-11",
+        "label_header": "コード5-11",
+        "label": "リストの平均を求めるcalc_average関数",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-12",
+        "label_header": "コード5-12",
+        "label": "input_scores関数とcalc_average関数",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-13",
+        "label_header": "コード5-13",
+        "label": "input_scores関数とcalc_average関数を呼び出す",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-14",
+        "label_header": "コード5-14",
+        "label": "足し算の結果を返すplus関数",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-15",
+        "label_header": "コード5-15",
+        "label": "plus関数の呼び出し",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-16",
+        "label_header": "コード5-16",
+        "label": "さまざまな機能を担当する関数の定義",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-17",
+        "label_header": "コード5-17",
+        "label": "試験結果を入力して平均点を出す",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-18",
+        "label_header": "コード5-18",
+        "label": "2つの戻り値を返す？",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-19",
+        "label_header": "コード5-19",
+        "label": "戻り値のタプルをアンパック代入",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-20",
+        "label_header": "コード5-20",
+        "label": "指定された3食を表示するeat関数",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-21",
+        "label_header": "コード5-21",
+        "label": "松田くんの食生活を出力する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-22",
+        "label_header": "コード5-22",
+        "label": "指定された3食を表示するeat関数（デフォルト値を利用）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-23",
+        "label_header": "コード5-23",
+        "label": "松田くんの言うまでもない食生活を出力する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-24",
+        "label_header": "コード5-24",
+        "label": "松田くんの基本的なeat関数",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-25",
+        "label_header": "コード5-25",
+        "label": "夜がカレーじゃない日のeat関数の呼び出し",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-26",
+        "label_header": "コード5-26",
+        "label": "夜がカレーじゃない日のeat関数の呼び出し（キーワード指定）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-27",
+        "label_header": "コード5-27",
+        "label": "おやつも出力できるeat関数",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-28",
+        "label_header": "コード5-28",
+        "label": "おやつも食べた日のeat関数の呼び出し",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-29",
+        "label_header": "コード5-29",
+        "label": "おやつも出力できるeat関数（可変長引数を利用）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-30",
+        "label_header": "コード5-30",
+        "label": "おやつも食べた日のeat関数の呼び出し（可変長引数を利用）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-31",
+        "label_header": "コード5-31",
+        "label": "引数を使わないで変数nameの値を受け渡している",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-32",
+        "label_header": "コード5-32",
+        "label": "hello関数の呼び出し",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-33",
+        "label_header": "コード5-33",
+        "label": "グローバル変数に代入する？",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-34",
+        "label_header": "コード5-34",
+        "label": "関数の中からグローバル変数への代入を試みる",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-35",
+        "label_header": "コード5-35",
+        "label": "global文を用いてグローバル変数に代入する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz05-03",
+        "label_header": "",
+        "label": "練習5-3",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz05-04",
+        "label_header": "",
+        "label": "練習5-4",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz05-05",
+        "label_header": "",
+        "label": "練習5-5",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans05-02",
+        "label_header": "",
+        "label": "練習5-2の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans05-05",
+        "label_header": "",
+        "label": "練習5-5の解答",
+        "sourceFiles": [
+          "main.py"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
