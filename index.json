@@ -1622,27 +1622,203 @@
     ]
   },
   {
-    "id": "chap04",
-    "label": "第4章 繰り返し",
+    "id": "chap07",
+    "label": "第7章 モジュール",
     "children":
     [
       {
-        "id": "code07",
-        "label_header": "コード7",
-        "label": "第7章 モジュール",
+        "id": "code07-01",
+        "label_header": "コード7-1",
+        "label": "1行日記を記録する",
         "sourceFiles": [
-          "chap07.py"
+          "main.py"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "quiz07",
-        "label_header": "練習7",
-        "label": "第7章 練習問題",
+        "id": "code07-02",
+        "label_header": "コード7-2",
+        "label": "用が済んだらすぐに閉じる",
         "sourceFiles": [
-          "ex07.py"
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-03",
+        "label_header": "コード7-3",
+        "label": "mathモジュールを利用する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-04",
+        "label_header": "コード7-4",
+        "label": "mathモジュールに別名を付けて利用する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-05",
+        "label_header": "コード7-5",
+        "label": "特定の変数や関数だけを利用する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-06",
+        "label_header": "コード7-6",
+        "label": "関数名が重複すると...",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-07",
+        "label_header": "コード7-7",
+        "label": "特定の変数や関数だけを別名を付けて利用する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-08",
+        "label_header": "コード7-8",
+        "label": "ワイルドカードインポートを使ってモジュールを利用する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-09",
+        "label_header": "コード7-9",
+        "label": "httpパッケージのclientモジュールを取り込む",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-10",
+        "label_header": "コード7-10",
+        "label": "httpパッケージのclientモジュールを取り込む（from利用）",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-11",
+        "label_header": "コード7-11",
+        "label": "httpパッケージのclientモジュールから関数だけを取り込む",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-12",
+        "label_header": "コード7-12",
+        "label": "matplotlibでリストのデータを可視化する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはdokoPyで対応していない記述が含まれるため、コンパイルエラーが発生します。"
+      },
+      {
+        "id": "code07-13",
+        "label_header": "コード7-13",
+        "label": "requestsでPythonの公式サイトを取得する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで対応していないライブラリが含まれるため、実行時エラーが発生します。"
+      },
+      {
+        "id": "code07-14",
+        "label_header": "コード7-14",
+        "label": "標準ライブラリを利用したWebページの取得",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+      },
+      {
+        "id": "quiz07-05",
+        "label_header": "",
+        "label": "練習7-5",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+      },
+      {
+        "id": "quizans07-04",
+        "label_header": "",
+        "label": "練習7-4の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans07-05",
+        "label_header": "",
+        "label": "練習7-5の解答",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+      },
+      {
+        "id": "quizans07-06",
+        "label_header": "",
+        "label": "練習7-6の解答",
+        "sourceFiles": [
+          "main.py"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
