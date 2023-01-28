@@ -8,4 +8,4 @@ def plus(x, y):
 """
 
 answer = plus(100, 50)
-print('足し算の答えは{}です'.format(answer))
+print('足し算の答えは{}です'.format(answer))

@@ -6,7 +6,7 @@ class Hero:
         self.hp += hours
 
 # ゲーム開始
-print('スッキリファンタジーXII ~金色の理想郷~')
+print('スッキリファンタジーXII ~金色の理想郷~')
 h = Hero()
 h.sleep(3)
-print('{}のHPは現在{}です'.format(h.name, h.hp))
+print('{}のHPは現在{}です'.format(h.name, h.hp))
