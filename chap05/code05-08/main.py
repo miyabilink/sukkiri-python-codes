@@ -3,7 +3,7 @@
 """
 # コード5-7
 def hello(name):
-    print('こんにちは。{}です。'.format(name))
+    print('こんにちは。{}です。'.format(name))
 """
 
 hello('浅木')
