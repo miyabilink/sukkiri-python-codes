@@ -7,4 +7,4 @@ username = input('名前を入力してください >>')
 userage = int(input('年齢を入力してください >>'))
 user = {'name': username, 'age': userage}
 welcome(user)
-print('{}歳の{}さん、またプレイしてくださいね'.format(user['age'], user['name']))
+print('{}歳の{}さん、またプレイしてくださいね'.format(user['age'], user['name']))

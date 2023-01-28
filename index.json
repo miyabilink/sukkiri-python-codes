@@ -843,7 +843,7 @@
           "main.py"
         ],
         "isCompileError": false,
-        "isRuntimeError": true,
+        "isRuntimeError": false,
         "loadMessage": "このコードを実行すると無限ループが発生します。実行結果画面の右上に表示される中断ボタンをクリックするか、しばらく待つと自動的に停止します。"
       },
       {
@@ -1157,8 +1157,8 @@
         "sourceFiles": [
           "main.py"
         ],
-        "isCompileError": true,
-        "isRuntimeError": false,
+        "isCompileError": false,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1756,7 +1756,7 @@
         ],
         "isCompileError": true,
         "isRuntimeError": false,
-        "loadMessage": "このコードはdokoPyで対応していない記述が含まれるため、コンパイルエラーが発生します。"
+        "loadMessage": "このコードはdokoPyで対応していない記述を含んでいます"
       },
       {
         "id": "code07-13",
@@ -1767,7 +1767,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで対応していないライブラリが含まれるため、実行時エラーが発生します。"
+        "loadMessage": "このコードはdokoPyで対応していないライブラリの利用が必要です"
       },
       {
         "id": "code07-14",
@@ -1778,7 +1778,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+        "loadMessage": "このコードはdokoPyで実行できない処理を含んでいます"
       },
       {
         "id": "quiz07-05",
@@ -1789,7 +1789,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+        "loadMessage": "このコードはdokoPyで実行できない処理を含んでいます"
       },
       {
         "id": "quizans07-04",
@@ -1811,7 +1811,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+        "loadMessage": "このコードはdokoPyで実行できない処理を含んでいます"
       },
       {
         "id": "quizans07-06",
@@ -1840,7 +1840,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+        "loadMessage": "このコードはdokoPyで実行できない処理を含んでいます"
       },
       {
         "id": "code08-02",
@@ -1851,7 +1851,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+        "loadMessage": "このコードはdokoPyで実行できない処理を含んでいます"
       },
       {
         "id": "code08-03",
@@ -1862,7 +1862,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで対応していないライブラリが含まれるため、実行時エラーが発生します。"
+        "loadMessage": "このコードはdokoPyで対応していないライブラリの利用が必要です"
       },
       {
         "id": "code08-04",
@@ -1873,7 +1873,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで対応していないライブラリが含まれるため、実行時エラーが発生します。"
+        "loadMessage": "このコードはdokoPyで対応していないライブラリの利用が必要です"
       },
       {
         "id": "code08-05",
@@ -1884,7 +1884,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで対応していないライブラリが含まれるため、実行時エラーが発生します。"
+        "loadMessage": "このコードはdokoPyで対応していないライブラリの利用が必要です"
       },
       {
         "id": "code08-06",
@@ -1895,7 +1895,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": true,
-        "loadMessage": "このコードはdokoPyで対応していない記述が含まれるため、コンパイルエラーが発生します。"
+        "loadMessage": "このコードはdokoPyで対応していない記述を含んでいます"
       }
     ]
   },
