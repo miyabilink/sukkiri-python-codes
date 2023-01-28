@@ -3,7 +3,7 @@
 """
 # コード5-16
 def input_scores(name):
-    print('{}さんの試験結果を入力してください'.format(name))
+    print('{}さんの試験結果を入力してください'.format(name))
     network = int(input('ネットワークの得点? >>'))
     database = int(input('データベースの得点? >>'))
     security = int(input('セキュリティの得点? >>'))
@@ -15,7 +15,7 @@ def calc_average(scores):
     return avg
 
 def output_result(name, avg):
-    print('{}さんの平均点は{}です'.format(name, avg))
+    print('{}さんの平均点は{}です'.format(name, avg))
 """
 
 # 浅木と松田の得点入力

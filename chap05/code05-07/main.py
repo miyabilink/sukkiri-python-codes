@@ -1,2 +1,2 @@
 def hello(name):
-    print('こんにちは。{}です。'.format(name))
+    print('こんにちは。{}です。'.format(name))
