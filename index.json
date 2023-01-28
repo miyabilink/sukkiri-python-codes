@@ -1828,7 +1828,7 @@
   },
   {
     "id": "chap08",
-    "label": "第8章 繰り返し",
+    "label": "第8章 まだまだ広がるPythonの世界",
     "children":
     [
       {
@@ -1896,16 +1896,89 @@
         "isCompileError": false,
         "isRuntimeError": true,
         "loadMessage": "このコードはdokoPyで対応していない記述が含まれるため、コンパイルエラーが発生します。"
+      }
+    ]
+  },
+  {
+    "id": "chapB",
+    "label": "付録B エラー解決・虎の巻",
+    "children":
+    [
+      {
+        "id": "codeB-01",
+        "label_header": "コードB-1",
+        "label": "funcA関数の定義",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
       },
       {
-        "id": "appendixB",
-        "label_header": "コードB",
-        "label": "付録B エラー解決・虎の巻",
+        "id": "codeB-02",
+        "label_header": "コードB-2",
+        "label": "funcB関数の定義",
         "sourceFiles": [
-          "appB.py"
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "codeB-03",
+        "label_header": "コードB-3",
+        "label": "funcB関数の呼び出し",
+        "sourceFiles": [
+          "main.py"
         ],
         "isCompileError": false,
         "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "codeB-04",
+        "label_header": "コードB-4",
+        "label": "ValueErrorが発生するプログラム",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "codeB-05",
+        "label_header": "コードB-5",
+        "label": "例外処理の例",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "codeB-06",
+        "label_header": "コードB-6",
+        "label": "ValueErrorとZeroDivisionErrorの両方に対応する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "codeB-07",
+        "label_header": "コードB-7",
+        "label": "すべての実行時エラーに対応する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
         "loadMessage": null
       }
     ]
