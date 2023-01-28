@@ -1827,20 +1827,75 @@
     ]
   },
   {
-    "id": "chap04",
-    "label": "第4章 繰り返し",
+    "id": "chap08",
+    "label": "第8章 繰り返し",
     "children":
     [
       {
-        "id": "code08",
-        "label_header": "コード8",
-        "label": "第8章 まだまだ広がるPythonの世界",
+        "id": "code08-01",
+        "label_header": "コード8-1",
+        "label": "Python公式ブログからセキュリティ関連記述の有無を調べる",
         "sourceFiles": [
-          "chap08.py"
+          "main.py"
         ],
         "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+      },
+      {
+        "id": "code08-02",
+        "label_header": "コード8-2",
+        "label": "SQLiteを使ったデータベース検索",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで実行できない処理が含まれるため、実行時エラーが発生します。"
+      },
+      {
+        "id": "code08-03",
+        "label_header": "コード8-3",
+        "label": "tkinterを使ってボタンのあるウィンドウを作成する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで対応していないライブラリが含まれるため、実行時エラーが発生します。"
+      },
+      {
+        "id": "code08-04",
+        "label_header": "コード8-4",
+        "label": "Flaskを使って現在時刻を表示する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで対応していないライブラリが含まれるため、実行時エラーが発生します。"
+      },
+      {
+        "id": "code08-05",
+        "label_header": "コード8-5",
+        "label": "Raspberry Piから温湿度を取得して表示する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで対応していないライブラリが含まれるため、実行時エラーが発生します。"
+      },
+      {
+        "id": "code08-06",
+        "label_header": "コード8-6",
+        "label": "カレールウの月別の支出額をグラフ化する",
+        "sourceFiles": [
+          "main.py"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokoPyで対応していない記述が含まれるため、コンパイルエラーが発生します。"
       },
       {
         "id": "appendixB",
