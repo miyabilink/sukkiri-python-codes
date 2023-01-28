@@ -7,4 +7,4 @@ while count < student_num:
     score_list.append(score)
 print(score_list)
 total = sum(score_list)
-print('平均点は{}点です'.format(total / student_num))
+print('平均点は{}点です'.format(total / student_num))
