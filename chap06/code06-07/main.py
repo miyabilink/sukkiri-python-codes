@@ -3,7 +3,7 @@ scores2 = [80, 40, 50]
 print('scores1の先頭要素は{}'.format(scores1[0]))
 print('scores2の先頭要素は{}'.format(scores2[0]))
 
-print('変数scores2の中身を変数scores1に代入(コピー)します')
+print('変数scores2の中身を変数scores1に代入(コピー)します')
 scores1 = scores2
 
 print('scores1の先頭要素を90に書き換えます')
