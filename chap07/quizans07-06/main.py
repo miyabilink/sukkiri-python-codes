@@ -1,4 +1,4 @@
-# randomモジュールのrandint関数を取り込む
+# randomモジュールのrandint関数を取り込む
 from random import randint
 print('数当てゲームを始めます。3桁の数を当ててください!')
 

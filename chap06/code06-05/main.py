@@ -5,7 +5,7 @@ class Hero:
         print('{}は{}時間寝た!'.format(self.name, hours))
         self.hp += hours
 
-# ゲーム開始
+# ゲーム開始
 print('スッキリファンタジーXII ~金色の理想郷~')
 h = Hero()
 h.sleep(3)

@@ -4,7 +4,7 @@ print('scores1のidentity: {}'.format(id(scores1)))
 print('scores2のidentity: {}'.format(id(scores2)))
 
 if scores1 == scores2:
-    print('scores1とscores2は同じ内容です')
+    print('scores1とscores2は同じ内容です')
 else:
     print('scores1とscores2は違う内容です')
 
