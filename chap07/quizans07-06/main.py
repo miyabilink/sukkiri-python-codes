@@ -1,6 +1,6 @@
 # randomモジュールのrandint関数を取り込む
 from random import randint
-print('数当てゲームを始めます。3桁の数を当ててください!')
+print('数当てゲームを始めます。3桁の数を当ててください!')
 
 # 正解を作成
 answer = list()
@@ -28,11 +28,11 @@ while is_continue == True:
                     break
 
     # 結果発表
-    print('{}ヒット!{}ボール!'.format(hit, blow))
+    print('{}ヒット!{}ボール!'.format(hit, blow))
     if hit == 3:
-        print('正解です!')
+        print('正解です!')
         is_continue = False
     else:
         if int(input('続けますか? 1:続ける 2:終了 >>')) == 2:
-            print('正解は{}{}{}でした'.format(answer[0], answer[1], answer[2]))
+            print('正解は{}{}{}でした'.format(answer[0], answer[1], answer[2]))
             is_continue = False

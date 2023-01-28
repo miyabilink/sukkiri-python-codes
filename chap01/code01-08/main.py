@@ -1,4 +1,4 @@
-print('半径が3cmの円の直径は、')
+print('半径が3cmの円の直径は、')
 dia = 3 * 2 # diaはdiameter(直径)の略
 print(dia)
 print('その円の円周の長さは、')
