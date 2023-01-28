@@ -4,4 +4,4 @@ try:
     print('1人あたり{}円です'.format(price / number))
 except ValueError:
     print('料金または人数は整数を入力してください')
-print('プログラムを終了します')
+print('プログラムを終了します')
