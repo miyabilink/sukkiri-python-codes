@@ -1,10 +1,12 @@
-image: atlassian/default-image:2
+image: python:3.12-slim
 
 pipelines:
     tags:
       v*:
         - step:
            script:
+             - apt update
+             - apt install -y git
              - git remote add sync git@github.com:miyabilink/sukkiri-python-codes.git
              - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
              - git fetch origin
@@ -13,12 +15,10 @@ pipelines:
              - git merge origin/main
              - git rm -f bitbucket-pipelines.yml
              - git commit -m “不要なファイルの削除”
-             - add-apt-repository universe && apt-get update -y
-             - curl https://bootstrap.pypa.io/pip/2.7/get-pip.py  --output get-pip.py
-             - python2 get-pip.py
-             - apt-get install -y ipython ipython-notebook
-             - apt-get remove -y python-zmq ipython
-             - pip install jupyter
+             - apt install -y gcc python3-dev 
+             - apt install -y jupyter-core jupyter-nbconvert
+             - pip install --upgrade pip
+             - pip3 install jupyter
              - jupyter nbconvert --to script ipynb/*.ipynb
              - mkdir py && mv ipynb/*.py py && ls py
              - git add py && git tag -d $BITBUCKET_TAG && git commit -m '最新コードに関して、ipynb形式からpy形式への変換' && git tag $BITBUCKET_TAG
